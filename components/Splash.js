@@ -17,6 +17,7 @@ export default class Splash extends Component {
         <Text style={styles.titleHeading}>
           Vibes
         </Text>
+        <Text>✌🏼</Text>
       </View>
     );
   }
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   titleHeading: {
-    fontSize: 40,
+    fontSize: 32,
     fontFamily: 'univers-light',
     //fontFamily: 'univers-condensedbold',
   },
