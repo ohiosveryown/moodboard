@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import {
+  SegmentedControlIOS,
   AppRegistry,
   StyleSheet,
   Text,
@@ -23,14 +24,14 @@ export default class Splash extends Component {
 
 const styles = StyleSheet.create({
   viewWrapper: {
-    backgroundColor: 'honeydew',
+    //backgroundColor: 'honeydew',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
   titleHeading: {
     fontSize: 40,
-    //fontWeight: '800',
     fontFamily: 'Karla-Bold',
+    //fontFamily: 'univers-condensedbold',
   },
 });
