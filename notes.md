@@ -17,4 +17,5 @@
 ### Git
 - Common
   $ git commit -m "Comments"
+  $ git commit -am 'Comments'
   $ git push
