@@ -36,6 +36,8 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		7A3935EA316F4BFFB05AF1B9 /* Karla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CA450F4E64947C98C7937B5 /* Karla.ttf */; };
+		FE8EE9B7B7D94D519824934E /* Karlabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C792FBE1915E43139FCBF361 /* Karlabold.ttf */; };
+		962F91B144E840B181F177C4 /* UniversCB.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0FAB3E87F9741E7A45F0E12 /* UniversCB.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +258,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		2CA450F4E64947C98C7937B5 /* Karla.ttf */ = {isa = PBXFileReference; name = "Karla.ttf"; path = "../Assets/Fonts/Karla.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C792FBE1915E43139FCBF361 /* Karlabold.ttf */ = {isa = PBXFileReference; name = "Karlabold.ttf"; path = "../Assets/Fonts/Karlabold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0FAB3E87F9741E7A45F0E12 /* UniversCB.otf */ = {isa = PBXFileReference; name = "UniversCB.otf"; path = "../Assets/Fonts/UniversCB.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +493,8 @@
 			isa = PBXGroup;
 			children = (
 				2CA450F4E64947C98C7937B5 /* Karla.ttf */,
+				C792FBE1915E43139FCBF361 /* Karlabold.ttf */,
+				D0FAB3E87F9741E7A45F0E12 /* UniversCB.otf */,
 			);
 			name = Resources;
 			path = "";
@@ -853,6 +859,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				7A3935EA316F4BFFB05AF1B9 /* Karla.ttf in Resources */,
+				FE8EE9B7B7D94D519824934E /* Karlabold.ttf in Resources */,
+				962F91B144E840B181F177C4 /* UniversCB.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -54,6 +54,8 @@
     <key>UIAppFonts</key>
     <array>
       <string>Karla.ttf</string>
+      <string>Karlabold.ttf</string>
+      <string>UniversCB.otf</string>
     </array>
   </dict>
 </plist>

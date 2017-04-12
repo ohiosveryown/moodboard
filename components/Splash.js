@@ -31,6 +31,6 @@ const styles = StyleSheet.create({
   titleHeading: {
     fontSize: 40,
     //fontWeight: '800',
-    fontFamily: 'Karla',
+    fontFamily: 'Karla-Bold',
   },
 });
