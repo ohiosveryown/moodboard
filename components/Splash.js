@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   },
   titleHeading: {
     fontSize: 40,
-    fontFamily: 'Karla-Bold',
+    fontFamily: 'univers-light',
     //fontFamily: 'univers-condensedbold',
   },
 });
