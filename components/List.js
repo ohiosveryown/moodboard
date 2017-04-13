@@ -1,10 +1,12 @@
 
 import React, { Component } from 'react';
 import {
+  AppRegistry,
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
+  ScrollView
 } from 'react-native';
 
 import base from './Base';
@@ -13,77 +15,89 @@ import SvgUri from 'react-native-svg-uri';
 export default class List extends Component {
   render() {
     return (
-      <View style={styles.viewWrapper}>
 
-        <View>
-          <Text style={styles.titleHeading}>
-            VIBES
-          </Text>
+      <ScrollView>
+
+        <View style={styles.viewWrapper}>
+
+          <View>
+            <Text style={styles.titleHeading}>
+              VIBES
+            </Text>
+          </View>
+
+          <View>
+            <Text style={styles.subHeading}>
+              Select a board below:
+            </Text>
+          </View>
+
+          <View>
+            <Text style={styles.listHeading}>
+              Interiors I
+            </Text>
+            <Text style={styles.listHeading}>
+              Interiors II
+            </Text>
+            <Text style={styles.listHeading}>
+              Exteriors
+            </Text>
+            <Text style={styles.listHeading}>
+              Swatches
+            </Text>
+          </View>
+
+
+
+          <View style={{borderColor: 'red', marginTop: 270, borderWidth: 1, flexDirection: 'row'}}>
+            <Text>
+              Log Out
+            </Text>
+
+            <Image
+              style={{width: 56, height: 56}}
+              source={require('../Assets/Imgs/newBoard.png')}
+            />
+          </View>
+
         </View>
 
-        <View>
-          <Text>
-            Select a board below.
-          </Text>
-        </View>
 
-        <View>
-          <Text>
-            Interiors I
-          </Text>
-        </View>
+      </ScrollView>
 
-        <View>
-          <Text>
-            Interiors II
-          </Text>
-        </View>
-
-        <View>
-          <Text>
-            Exteriors
-          </Text>
-        </View>
-
-        <View>
-          <Text>
-            Swatches
-          </Text>
-        </View>
-
-        <View style={{borderColor: 'red', marginTop: 400, borderWidth: 1, flexDirection: 'row'}}>
-          <Text>
-            Log Out
-          </Text>
-
-          <Image
-            style={{width: 56, height: 56}}
-            source={require('../Assets/Imgs/newBoard.png')}
-          />
-        </View>
-
-      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
   viewWrapper: {
-    //backgroundColor: 'honeydew',
-    borderColor: 'red',
-    borderWidth: 2,
-    marginTop: 32,
+    //borderColor: 'red',
+    //borderWidth: 2,
+    marginTop: 56,
     marginRight: 32,
     marginBottom: 32,
     marginLeft: 32,
     flex: 1,
-    //boxShadow: 1,
-    //justifyContent: 'center',
-    //alignItems: 'center',
   },
   titleHeading: {
     fontFamily: 'univers-condensedbold',
     fontSize: 24,
     marginBottom: 16,
-  }
+  },
+  subHeading: {
+    fontFamily: 'Karla-Regular',
+    fontSize: 20,
+    marginBottom: 56,
+  },
+  listHeading: {
+    fontFamily: 'Karla-Regular',
+    fontSize: 20,
+    color: '#256EEA',
+    marginBottom: 24,
+  },
 });
+
+
+AppRegistry.registerComponent(
+  'List',
+  () => List);
