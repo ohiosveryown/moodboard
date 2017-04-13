@@ -49,13 +49,13 @@ export default class List extends Component {
 
 
 
-          <View style={{borderColor: 'red', marginTop: 270, borderWidth: 1, flexDirection: 'row'}}>
-            <Text>
+          <View style={{marginTop: 230, flexDirection: 'row'}}>
+            <Text style={styles.logoutHeading}>
               Log Out
             </Text>
 
             <Image
-              style={{width: 56, height: 56}}
+              style={{width: 56, height: 56, marginLeft: 190}}
               source={require('../Assets/Imgs/newBoard.png')}
             />
           </View>
@@ -95,6 +95,12 @@ const styles = StyleSheet.create({
     color: '#256EEA',
     marginBottom: 24,
   },
+  logoutHeading: {
+    opacity: 0.5,
+    fontFamily: 'univers-light',
+    fontSize: 20,
+    marginTop: 12,
+  }
 });
 
 
