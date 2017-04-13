@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -52,7 +51,7 @@ export default class List extends Component {
           </Text>
         </View>
 
-        <View style={{borderColor: 'red', borderWidth: 1, flexDirection: 'row'}}>
+        <View style={{borderColor: 'red', marginTop: 400, borderWidth: 1, flexDirection: 'row'}}>
           <Text>
             Log Out
           </Text>
@@ -85,5 +84,6 @@ const styles = StyleSheet.create({
   titleHeading: {
     fontFamily: 'univers-condensedbold',
     fontSize: 24,
+    marginBottom: 16,
   }
 });

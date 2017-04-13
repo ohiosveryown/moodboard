@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
+  /*AppRegistry,*/
   StyleSheet,
   Text,
   View
