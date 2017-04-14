@@ -49,7 +49,7 @@ export default class List extends Component {
 
 
 
-          <View style={{marginTop: 230, flexDirection: 'row'}}>
+          <View style={{marginTop: 200, flexDirection: 'row'}}>
             <Text style={styles.logoutHeading}>
               Log Out
             </Text>
