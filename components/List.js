@@ -48,7 +48,6 @@ export default class List extends Component {
           </View>
 
 
-
           <View style={{marginTop: 200, flexDirection: 'row'}}>
             <Text style={styles.logoutHeading}>
               Log Out
@@ -61,7 +60,6 @@ export default class List extends Component {
           </View>
 
         </View>
-
 
       </ScrollView>
 
