@@ -5,6 +5,9 @@
 - Floating Labels
   - https://github.com/eyaleizenberg/react-native-floating-label-text-input
 
+- Lightbox
+  - https://github.com/oblador/react-native-lightbox
+
 - Tut 001
   - https://youtu.be/FUdy4PHIbww
   - https://www.youtube.com/watch?v=mkualZPRZCs
