@@ -16,18 +16,22 @@ export default class AuthorMichelle extends Component {
 
       <View>
 
-        <View>
+        <View style={styles.viewWrapper} >
           <Image
             style={{ height: 48, width: 48 }}
             source={require('../Assets/Imgs/michelle.png')}
           />
+
+        <View style={styles.textWrapper}>
           <Text>
             Created by: Michelle
           </Text>
-          
+
           <Text>
             on May 12, 2017
           </Text>
+        </View>
+
         </View>
 
       </View>
@@ -42,4 +46,11 @@ const styles = StyleSheet.create({
     fontFamily: 'univers-light',
     //fontFamily: 'univers-condensedbold',
   },
+  viewWrapper: {
+    flexDirection: 'row',
+    borderWidth: 1,
+  },
+  textWrapper: {
+    justifyContent: 'center',
+  }
 });
