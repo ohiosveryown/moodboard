@@ -8,10 +8,11 @@ import {
   Navigator,
   Image,
   Dimensions,
+  ScrollView,
 } from 'react-native';
 
 import base from './Base';
-import AuthorMichelle from './AuthorMichelle'
+import Author from './Author'
 
 var Lightbox = require('react-native-lightbox');
 const { height, width} = Dimensions.get('window');
@@ -20,7 +21,7 @@ const activeProps = { resizeMode: 'contain', flex: 1, width };
 export default class Main extends Component {
   render() {
     return (
-      <View>
+      <ScrollView>
 
         <Text style={styles.titleHeading}>
           INTERIORS
@@ -30,20 +31,14 @@ export default class Main extends Component {
           Our moodboard for interior inspiration – browse around.
         </Text>
 
-        <AuthorMichelle />
+        <Author />
 
-      </View>
+      </ScrollView>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  viewWrapper: {
-    //backgroundColor: 'honeydew',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
   titleHeading: {
     fontFamily: 'univers-condensedbold',
     fontSize: 24,
@@ -52,7 +47,6 @@ const styles = StyleSheet.create({
   subHeading: {
     fontFamily: 'Karla-Regular',
     fontSize: 20,
-    marginBottom: 56,
   },
 });
 
