@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import base from './Base';
+import AuthorMichelle from './AuthorMichelle'
 
 var Lightbox = require('react-native-lightbox');
 const { height, width} = Dimensions.get('window');
@@ -21,12 +22,15 @@ export default class Main extends Component {
     return (
       <View>
 
-        <Lightbox activeProps={activeProps} backgroundColor="rgba(255,255,255,0.2)" underlayColor="white">
-          <Image
-            style={{ height: 100, resizeMode: 'contain' }}
-            source={require('../Assets/Imgs/lamp.png')}
-          />
-        </Lightbox>
+        <Text style={styles.titleHeading}>
+          INTERIORS
+        </Text>
+
+        <Text style={styles.subHeading}>
+          Our moodboard for interior inspiration – browse around.
+        </Text>
+
+        <AuthorMichelle />
 
       </View>
     );
@@ -41,8 +45,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   titleHeading: {
-    fontSize: 32,
-    fontFamily: 'univers-light',
-    //fontFamily: 'univers-condensedbold',
+    fontFamily: 'univers-condensedbold',
+    fontSize: 24,
+    marginBottom: 16,
+  },
+  subHeading: {
+    fontFamily: 'Karla-Regular',
+    fontSize: 20,
+    marginBottom: 56,
   },
 });
+
+
+/*
+
+<Lightbox activeProps={activeProps} backgroundColor="rgba(255,255,255,0.2)" underlayColor="white">
+  <Image
+    style={{ height: 100, resizeMode: 'contain' }}
+    source={require('../Assets/Imgs/lamp.png')}
+  />
+</Lightbox>
+
+*/

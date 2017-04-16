@@ -7,6 +7,7 @@
 
 - Lightbox
   - https://github.com/oblador/react-native-lightbox
+    - https://github.com/oblador/react-native-lightbox/issues/63
 
 - Tut 001
   - https://youtu.be/FUdy4PHIbww
