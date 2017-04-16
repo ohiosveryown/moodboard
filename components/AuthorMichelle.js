@@ -4,7 +4,8 @@ import {
   /*AppRegistry,*/
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
 import base from './Base';
@@ -13,9 +14,23 @@ export default class AuthorMichelle extends Component {
   render() {
     return (
 
-        <Text>
-          Michelle
-        </Text>
+      <View>
+
+        <View>
+          <Image
+            style={{ height: 48, width: 48 }}
+            source={require('../Assets/Imgs/michelle.png')}
+          />
+          <Text>
+            Created by: Michelle
+          </Text>
+          
+          <Text>
+            on May 12, 2017
+          </Text>
+        </View>
+
+      </View>
 
     );
   }
