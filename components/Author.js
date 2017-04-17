@@ -18,19 +18,19 @@ export default class Author extends Component {
 
         <View style={styles.viewWrapper} >
           <Image
-            style={{ height: 48, width: 48 }}
+            style={{ height: 48, width: 48, }}
             source={require('../Assets/Imgs/michelle.png')}
           />
 
-        <View style={styles.textWrapper}>
-          <Text style={styles.author}>
-            Created by: Michelle
-          </Text>
+          <View style={styles.textWrapper}>
+            <Text style={styles.author}>
+              Created by: Michelle
+            </Text>
 
-          <Text style={styles.date}>
-            on May 12, 2017
-          </Text>
-        </View>
+            <Text style={styles.date}>
+              on May 12, 2017
+            </Text>
+          </View>
 
         </View>
 
@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
   },
   viewWrapper: {
     flexDirection: 'row',
-    //marginLeft: 26,
   },
   textWrapper: {
     justifyContent: 'center',
@@ -62,5 +61,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Karla-Regular',
     fontSize: 16,
     opacity: 0.6,
-  }
+  },
+
 });

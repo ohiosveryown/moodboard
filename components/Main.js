@@ -21,7 +21,12 @@ export default class Main extends Component {
     return (
       <View style={styles.wrapper}>
 
+
         <ScrollView>
+
+          <Text style={styles.back}>
+            back
+          </Text>
 
           <Text style={styles.titleHeading}>
             INTERIORS
@@ -47,7 +52,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 1
+    marginTop: 32,
   },
   titleHeading: {
     fontFamily: 'univers-condensedbold',
@@ -58,6 +63,13 @@ const styles = StyleSheet.create({
     fontFamily: 'Karla-Regular',
     fontSize: 20,
     maxWidth: 320,
+    marginBottom: 24,
+  },
+  back: {
+    fontFamily: 'Karla-Regular',
+    fontSize: 18,
+    opacity: 0.5,
+    marginBottom: 24,
   },
 });
 
