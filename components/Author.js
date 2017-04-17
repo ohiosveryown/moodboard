@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
   },
   viewWrapper: {
     flexDirection: 'row',
+    //marginLeft: 26,
   },
   textWrapper: {
     justifyContent: 'center',

@@ -23,7 +23,7 @@ const activee = { alignItems: 'center', justifyContent: 'center', width, overflo
 export default class Main extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.wrapper}>
 
         <View>
 
@@ -55,6 +55,10 @@ const styles = StyleSheet.create({
     fontFamily: 'Karla-Regular',
     fontSize: 20,
   },
+  wrapper: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
 });
 
 

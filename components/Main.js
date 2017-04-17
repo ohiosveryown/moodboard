@@ -19,26 +19,36 @@ import Grid from './Grid';
 export default class Main extends Component {
   render() {
     return (
-      <ScrollView>
+      <View style={styles.wrapper}>
 
-        <Text style={styles.titleHeading}>
-          INTERIORS
-        </Text>
+        <ScrollView>
 
-        <Text style={styles.subHeading}>
-          Our moodboard for interior inspiration – browse around.
-        </Text>
+          <Text style={styles.titleHeading}>
+            INTERIORS
+          </Text>
 
-        <Author />
+          <Text style={styles.subHeading}>
+            Our moodboard for interior inspiration – browse around.
+          </Text>
 
-        <Grid />
+          <Author />
 
-      </ScrollView>
+          <Grid />
+
+        </ScrollView>
+
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1
+  },
   titleHeading: {
     fontFamily: 'univers-condensedbold',
     fontSize: 24,
@@ -47,6 +57,7 @@ const styles = StyleSheet.create({
   subHeading: {
     fontFamily: 'Karla-Regular',
     fontSize: 20,
+    maxWidth: 320,
   },
 });
 
