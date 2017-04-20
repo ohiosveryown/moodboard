@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
   textWrapper: {
     justifyContent: 'center',
     marginLeft: 8,
+    marginBottom: 32,
   },
   author: {
     fontFamily: 'Karla-Regular',
