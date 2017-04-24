@@ -13,7 +13,6 @@ import Main from './components/Main'
 export default class moodboard extends Component {
   render() {
     return (
-      /* <Splash /> */
       <Main />
     );
   }
