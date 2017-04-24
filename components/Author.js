@@ -62,7 +62,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Karla-Regular',
     fontSize: 16,
     opacity: 0.6,
-    //marginTop: -4,
   },
 
 });

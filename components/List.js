@@ -69,8 +69,6 @@ export default class List extends Component {
 
 const styles = StyleSheet.create({
   viewWrapper: {
-    //borderColor: 'red',
-    //borderWidth: 2,
     marginTop: 56,
     marginRight: 32,
     marginBottom: 32,
