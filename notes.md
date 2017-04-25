@@ -14,6 +14,9 @@
   - https://www.youtube.com/watch?v=mkualZPRZCs
   - https://www.youtube.com/watch?v=9pyxbxoZchw
   - https://www.youtube.com/watch?v=NQdufXhBMss
+  
+ - CMS
+   - Gatsby
 
 
 
